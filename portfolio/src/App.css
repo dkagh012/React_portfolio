@@ -1,0 +1,209 @@
+html 
+{background: rgb(243, 243, 210);
+} 
+
+.Title{
+  
+  font-family: 'Open Sans', 'Noto Sans KR', Arial, 'Malgun Gothic', serif;
+}
+
+.one_friend {
+  position: relative;
+  object-fit: cover;
+  width: 294px;
+  height: 333px;
+  left: 77px;
+}
+.two_friend {
+  position: relative;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  left: 65px;
+  top: 150px;
+}
+.three_friend {
+  position: relative;
+  width: 700px;
+  height: 333px;
+  object-fit: cover;
+  left: 145px;
+}
+
+.four_friend {
+  position: relative;
+  width: 294px;
+  height: 333px;
+  object-fit: cover;
+  left: 208px;
+}
+.five_friend {
+  position: relative;
+  left: 349px;
+  top: 23px;
+}
+.six_friend {
+  width: 400px;
+  height: 200px;
+}
+.seven_friend {
+  width: 398px;
+  height: 221px;
+}
+
+.Wrapper_introduction {
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  top: 154px;
+  left: 388px;
+}
+span.introduction_title {
+  font-size: 40px;
+  font-weight: bold;
+  position: relative;
+  top: 65px;
+  left: 688px;
+}
+
+  .introduction {
+    position: relative;
+    top: 154px;
+    border-top: 1px solid;
+    height: 0px;
+
+}
+span.name {
+  position: relative;
+  font-size: 40px;
+  left: 400px;
+  bottom: 200px;
+}
+.Main_title {
+  font-size: 40px;
+  position: relative;
+  top:150px;
+  left: 350px;
+
+  
+}
+.top_title{
+  position: relative;
+  left:220px;
+}
+
+
+.line {
+  position: relative;
+  border-top: 1px solid;
+  bottom:300px;
+}
+.my_Career {
+  position: relative;
+  top: 984px;
+  font-size: 18px;
+  font-weight: bold;
+}
+span.Career_title {
+  position: relative;
+  bottom: 172px;
+  left: 600px;
+  font-size: 40px;
+  font-weight: bold;
+}
+.Career {
+  position: relative;
+  left: 420px;
+  bottom: 100px;
+}
+
+.Main {
+  position: relative;
+  left: 450px;
+}
+
+
+
+.Github {
+  position: relative;
+  bottom: 385px;
+  left: 807px;
+  width: 697px;
+  box-shadow: 0px 0px 5px 2px grey;
+}
+.Notion {
+  position: relative;
+  bottom: 414px;
+  left: 807px;
+  width: 697px;
+  box-shadow: 0px 0px 5px 2px grey;
+}
+
+.title_line_text {
+  color: #000000;
+  position: relative;
+  top: 65px;
+  left: 470px;
+  transform: translate(-50%, -50%);
+  padding: 0 40px;
+  height: 60px;
+  overflow: hidden;
+}
+.title_line{
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.title_line:first-child{
+  animation: anim 12s infinite;
+}
+
+@keyframes anim {
+  0%{
+    margin-top : 0;
+  }
+  16%{
+    margin-top : -60px;
+  }
+  33%{
+    margin-top : -120px;
+  }
+  50%{
+    margin-top : -180px;
+  }
+}
+.home_link {
+  border: 1px solid #333;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #efefef;
+  font-weight: bold;
+  border-radius: 4px;
+  position: fixed;
+  
+  bottom: 650px;
+}
+.Wrapper_link{
+  border: 1px solid #333;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #efefef;
+  font-weight: bold;
+  border-radius: 4px;
+  position: fixed;
+  left: 100px;
+  bottom: 650px;
+}
+.Career_link{
+  border: 1px solid #333;
+  padding: 10px;
+  margin-left: 10px;
+  background-color: #efefef;
+  font-weight: bold;
+  border-radius: 4px;
+  position: fixed;
+  left: 170px;
+  bottom: 650px;
+}
