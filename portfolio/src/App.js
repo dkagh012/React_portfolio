@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import Wrapper from './component/Wrapper';
 import Title from './component/Title';
-
 import Career from './component/Career';
 import { BrowserRouter, Route, Routes} from "react-router-dom";
 
@@ -12,14 +11,16 @@ function App() {
     <div className="container">
   <BrowserRouter>
  
-        <div className="App">
+  <Route path="/">
           <Title/>
-          <Routes>
- 
-          <Route exact path="/Wrapper" element={<Wrapper/>}/>
-          <Route exact path="/Career" element={<Career/>}/>
-          </Routes>
-        </div>
+        </Route>
+        <Route path="/Wrapper">
+          <Wrapper/>
+        </Route>
+        <Route path="/Career">
+          <Career/>
+        </Route>
+        
   </BrowserRouter>
 
     
